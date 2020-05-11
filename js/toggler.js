@@ -10,7 +10,7 @@ function toggle() {
   }
   else{
     e.style.display='none';
-    m.style.marginTop='150px';
+    m.style.marginTop='100px';
   }
 }
 function services(){
@@ -35,5 +35,5 @@ function toggle1(){
 }
 function hide(){
 e.style.display='none';
-m.style.marginTop='150px';
+m.style.marginTop='100px';
 }
