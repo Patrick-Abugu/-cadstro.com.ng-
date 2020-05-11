@@ -35,4 +35,5 @@ function toggle1(){
 }
 function hide(){
 e.style.display='none';
+m.style.marginTop='150px';
 }
