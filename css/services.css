@@ -58,9 +58,39 @@ a.label{
   padding:20px;
 }
 
+
+@media only screen and (orientation:landscape){
+  #toggle{
+    display:none;
+  }
+  #nav-ul{
+    display:inline;
+    float:right;
+    margin-right:10px;
+    margin-top:20px;
+    background:none
+  }
+  #nav-ul li{
+    display:inline;
+    border:none;
+    margin-right:50px;
+  }
+
+  ul#services{
+    text-align:center;
+    margin-right:10px;
+
+  }
+  ul#services li{
+    display:block;
+    margin:10px;
+  }
+}
+
 .whatsapp{
 text-align:center;
 }
+
 .whatsapp a{
 text-align:center;
 color:white;
