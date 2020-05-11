@@ -10,7 +10,7 @@ function toggle() {
   }
   else{
     e.style.display='none';
-    m.style.marginTop='0px';
+    m.style.marginTop='150px';
   }
 }
 function services(){
@@ -32,4 +32,7 @@ function toggle1(){
     m.style.marginTop='270px';
   }
 
+}
+function hide(){
+e.style.display='none';
 }
