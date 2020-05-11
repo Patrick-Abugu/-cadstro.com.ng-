@@ -1,0 +1,204 @@
+#header-div{
+    top:0px;
+    position:fixed;
+    z-index:1;
+    background:white
+}
+img.logo{
+    width:20%
+}
+#toggle{
+    margin-left:70%;
+    background:none;
+    border:none;
+}
+#toggle span{
+  display: block;
+  width:30px;
+  height:6px;
+  margin: 3px 0px;
+  background: red;
+}
+#nav-ul{
+    list-style-type:none;
+    margin-top:10px;
+    margin-left:-20px;
+    background-color: white;
+}
+#nav-ul li{
+    margin-top:10px;
+    list-style-type:none;
+    border-bottom:1px solid #912023;
+    padding-bottom:10px;
+}
+#nav-ul li a{
+    color:red;
+    text-decoration:none;
+}
+#nav-ul li a:hover{
+    background-color:#912023;
+    padding-bottom:10px;
+    color:white;
+}
+#nav-ul li a:active{
+      background-color:#912023;
+    padding-bottom:10px;
+}
+
+ul#services{
+  display:none;
+}
+#carouselExampleCaptions{
+  margin-top:270px;
+}
+a.label{
+  background:red;
+  color:white;
+  padding:20px;
+}
+
+
+/*styling navigation for landscape view*/
+
+@media only screen and (orientation:landscape){
+  #toggle{
+    display:none;
+  }
+  #nav-ul{
+    display:inline;
+    float:right;
+    margin-right:10px;
+    margin-top:20px;
+    background:none
+  }
+  #nav-ul li{
+    display:inline;
+    border:none;
+    margin-right:50px;
+  }
+
+  ul#services{
+    text-align:center;
+    margin-right:10px;
+
+  }
+  ul#services li{
+    display:block;
+    margin:10px;
+  }
+}
+/*styles for home*/
+p.service-head{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:50px;
+  font-size:36px;
+  color:red;
+  border-bottom:4px solid #912023;
+}
+.services-col{
+  border:1px solid rgba(25,0,0,0.4);
+  margin-bottom:200px;
+  padding-bottom:50px
+}
+img.icon{
+  width:100%;
+
+}
+p.service{
+ text-align:center;
+ font-size:30px;
+ margin-top:20px;
+ color:#912023;
+ font-weight:bold;
+ text-align:center;
+}
+p.service-detail{
+  width:75%;
+  margin-left:15%;
+ text-align:center;
+}
+.readmore {
+ color:white;
+ background-color:#912023;
+ padding-bottom:4px;
+ padding-top:4px;
+ padding-left:20px;
+ width:100px;
+ float:right;
+ margin-top:20px;
+}
+
+a:hover{
+  text-decoration:none;
+}
+b{
+  color:red;
+}
+a b:hover{
+  background-color:blue;
+  padding:4px;
+}
+.about-div{
+  text-align:center;
+  width:50%;
+  margin-left:25%;
+  margin-top:100px;
+  margin-bottom:100px
+}
+.about-title{
+  font-size:30px;
+ background:red;
+ color:white;
+ font-weight:bold;
+ border-radius:20px;
+}
+.footer-div{
+  background:#912023;
+  color:white;text-align:center;
+  padding-top:50px;
+}
+.locate-div b{
+  color:darkblue
+}
+.footer-div ul{
+  list-style-type:none;
+}
+.footer-div a{
+  color:white
+}
+.footer-div a:hover{
+  background:none;
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:10px;
+}
+.social-div, .link-div{
+text-align:center;
+margin-top:100px;
+margin-left:20px;
+}
+.social-div p,.links-div p{
+font-weight:bold;
+margin-left:20px;
+}
+
+/*syles for home in landscape*/
+@media only screen and (orientation:landscape){
+  .grid-div, .footer-div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+  }
+  .social-div, .link-div{
+text-align:left;
+margin-top:0px;
+margin-left:0px;
+text-align:center;
+}
+.links-div{
+ margin-left:100px;
+}
+}
