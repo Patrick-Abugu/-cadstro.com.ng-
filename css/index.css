@@ -74,6 +74,10 @@ width:50%;
   #toggle{
     display:none;
   }
+img.logo{
+    width:20%;
+    height:100PX;
+}
   #nav-ul{
     display:inline;
     float:right;
